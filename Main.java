@@ -18,6 +18,7 @@ public class Main {
         Test test = new Test();
         String inputWord = "Write a function that will reverse the given input string";
         System.out.println(test.reverseWord(inputWord));
+        //output: gnirts tupni nevig eht esrever lliw taht noitcnuf a etirW
 
         /**
          * Write a function that accepts three integers as input and returns as output the largest of the three
@@ -26,6 +27,7 @@ public class Main {
         int max = arr[0];
         max = test.findMax(arr);
         System.out.println(max);
+        //outout: 7
 
         /**
          * Write a function that calculates the factorial of an input integer using recursion
@@ -33,12 +35,19 @@ public class Main {
         int input = 4;
         int factorialNum = test.factorial(input);
         System.out.println(factorialNum);
+        //output: 24
 
         /**
          * Write a function that calculates the Nth entry of the fibonacci sequence (Do not include 0 in the sequence)
          */
         int index = 3;
         System.out.println(test.calcFibonacci(index));
+        //output:
+        //calcFibonacci(1) -> 1
+        //calcFibonacci(2) -> 1
+        //calcFibonacci(3) -> 2
+        //calcFibonacci(4) -> 3
+        //calcFibonacci(5) -> 5
     }
 }
 
